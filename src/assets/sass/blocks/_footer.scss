@@ -1,0 +1,126 @@
+.footer{
+    padding-top: 64px;
+    padding-bottom: 40px;
+
+    background-color: $shark;
+}
+
+.footer__inner{
+    display: flex;
+}
+
+.footer__text{
+    max-width: 215px;
+
+    color: #6d6d6d;
+    font-family: "Panton - Semi Bold";
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.84;;
+    /* Text style for "о, фициаль" */
+    letter-spacing: 1.06px;
+}
+
+.footer__left-link{
+    display: block;
+
+    color: #009be1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2;
+    text-decoration: underline;
+    letter-spacing: 0.14px;
+
+    transition: color .2s linear;
+    &:hover{
+        color: lighten( #009be1, 25%);
+    }
+}
+
+.footer__left-links{
+    margin-top: 60px;
+}
+
+.footer__right-title{
+    margin-bottom: 25px;
+
+    color: $white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+
+ 
+.footer__list-item{
+    margin-bottom: 7px;
+}
+
+.footer__list-link{
+    color: #6d6d6d;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+
+    transition: color .2s linear;
+ 
+    &:hover{
+        color: lighten( #009be1, 25%);
+    }
+}
+
+.footer__right{
+    margin-left: 100px;
+    
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list-link--email{
+    color: #009add;
+   
+    font-size: 12px;
+    font-weight: 400;
+ 
+    text-decoration: underline;
+    letter-spacing: 0.15px;
+    text-transform: unset;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom-left{
+    color:#6d6d6d;   
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.17px;
+}
+
+.footer__bottom-right{
+    display: flex;
+    align-items: center;
+
+    a{
+        margin-right: 60px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+.footer__linear{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    width: 100%;
+    height: 1px;
+    background-color: $white;
+    opacity: 0.1;
+}

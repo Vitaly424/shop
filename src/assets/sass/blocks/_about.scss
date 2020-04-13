@@ -1,0 +1,24 @@
+.about{
+    margin-bottom: 115px;
+}
+
+.about__headers{
+    margin-top: 68px;
+}
+
+.about__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__desk{
+    flex-basis: 49%;
+    color: $shark;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.78;
+    letter-spacing: 0.35px;
+    p{
+        margin-bottom: 20px;
+    }
+}

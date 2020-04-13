@@ -1,0 +1,46 @@
+
+// Panton 400, 600, 700, 800, 900
+
+@font-face {
+	font-family: 'Panton';
+	src: url('../fonts/Panton-Regular.eot');
+	src: local('☺'), url('../fonts/Panton-Regular.woff') format('woff'), url('../fonts/Panton-Regular.ttf') format('truetype'), url('../fonts/Panton-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Panton';
+	src: url('../fonts/Panton-SemiBold.eot');
+	src: local('☺'), url('../fonts/Panton-SemiBold.woff') format('woff'), url('../fonts/Panton-SemiBold.ttf') format('truetype'), url('../fonts/Panton-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Panton';
+	src: url('../fonts/Panton-Bold.eot');
+	src: local('☺'), url('../fonts/Panton-Bold.woff') format('woff'), url('../fonts/Panton-Bold.ttf') format('truetype'), url('../fonts/Panton-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Panton';
+	src: url('../fonts/Panton-ExtraBold.eot');
+	src: local('☺'), url('../fonts/Panton-ExtraBold.woff') format('woff'), url('../fonts/Panton-ExtraBold.ttf') format('truetype'), url('../fonts/Panton-ExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Panton';
+	src: url('../fonts/Panton-Black.eot');
+	src: local('☺'), url('../fonts/Panton-Black.woff') format('woff'), url('../fonts/Panton-Black.ttf') format('truetype'), url('../fonts/Panton-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}

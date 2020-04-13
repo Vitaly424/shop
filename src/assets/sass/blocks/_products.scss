@@ -1,0 +1,204 @@
+.products__stock{
+    padding: 25px 30px  ;
+
+    background: url('../img/product/bg_stock.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__stock{
+    width: 263px;
+    position: relative;
+ 
+    box-shadow: -1px 14px 20px -12px rgba(0,0,0,0.75);
+    min-height: 449px;
+}
+
+.products__stock-super-discount{
+    color: $white;
+    font-size: 95px;
+    font-weight: 800;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+
+    opacity: 0.22;
+}
+
+.products__stock-img{
+    position: absolute;
+    top: 110px;
+    right: 2px;
+
+    &.two{
+        top:0;
+        right: 40px;
+    }
+}
+
+.products__stock-title{
+    color: $white;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.82px;
+}
+
+.products__stock-subtitle{
+    max-width: 144px;
+
+    color: $malibu;
+    font-family: "Panton - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    /* Text style for "к, атушка" */
+    letter-spacing: 0.55px;
+}
+
+ 
+.products__stock-price{
+    position: absolute;
+    bottom: 20px;
+
+    color: #ffffff;
+    font-family: Panton;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.products__card-price--discount{
+    color: #6d6d6d;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: line-through;
+    letter-spacing: 0.35px;
+    
+    margin-left: 15px;
+}
+
+.products__slider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__card{
+    margin-right: 33px;
+
+    position: relative;
+
+    width: 263px;
+    min-height: 449px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 74px;
+    padding-top: 25px;
+
+    border: 1px solid #efefef;
+    box-shadow: 0 18px 21px #ebebeb;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.products__card-hit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 58px;
+    height: 35px;
+
+    position: absolute;
+    top: 40px;
+    left: 0;
+
+    color: $white;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.45px;
+
+    background-image: linear-gradient(to left, #0187c1 0%, #3ac0ef 100%);
+
+ 
+}
+
+.products__card-discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 87px;
+    height: 35px;
+  
+    background-color: #00963f;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    color: $white;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.45px;
+}
+
+.products__card-img{
+    width: 100%;
+  
+    img{
+        display: block;
+        width: 100%;
+        height: 200px;
+   
+    }
+}
+
+.products__card-statistics{
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__card-text{
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    color: $black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+}
+
+.products__card-price{
+    margin-bottom: 20px;
+ 
+
+    color: $black;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.45px;
+}
+
+.products__btn{
+    position: absolute;
+    bottom: 15px;
+  
+    max-width: 224px;
+}
